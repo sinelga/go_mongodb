@@ -29,7 +29,7 @@ func TestBTrequestHandler(t *testing.T) {
 
 	resp := httptest.NewRecorder()
 		
-	BTrequestHandler(*golog, resp, req , "fi_FI", "porno", "www.test.com", "/menu", "google", startparameters, false,"variant")
+	BTrequestHandler(*golog, resp, req , "fi_FI", "porno", "www.test.com", "/api", "google", startparameters, false,"variant")
 		
 
 }
